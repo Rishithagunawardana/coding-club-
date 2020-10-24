@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Coding Club"
+            android:textSize="30sp"
+            android:textColor="@color/colorTransparentWhite"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="20dp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTransparentWhite"
+            android:text="Simple Code Makes YOur Life Easier"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20sp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/csharp"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="C#"
+                    android:textColor="@color/colorTransparentWhite"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="78dp"
+                    android:text="
+
+          Learn C#  Now"
+                    android:textSize="18dp"
+                    android:onClick="open"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTransparentWhite"/>
+
+                <ImageView
+                    android:layout_marginTop="6dp"
+                    android:layout_width="91dp"
+                    android:layout_height="88dp"
+                    android:padding="8dp"
+                    android:src="@drawable/c"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/other"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Java"
+                    android:textColor="@color/colorTransparentWhite"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="78dp"
+                    android:text="
+
+    Learn Java  Now"
+                    android:textColor="@color/colorTransparentWhite"
+                    android:onClick="java"
+                    android:textSize="18dp"
+
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="6dp"
+                    android:layout_width="91dp"
+                    android:layout_height="88dp"
+                    android:padding="8dp"
+                    android:src="@drawable/j"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/other"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="C++"
+                    android:textColor="@color/colorTransparentWhite"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="188dp"
+                    android:layout_height="78dp"
+                    android:text="
+
+          Learn C++ Now"
+                    android:textColor="@color/colorTransparentWhite"
+                    android:onClick="cplus"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="6dp"
+                    android:layout_width="91dp"
+                    android:layout_height="88dp"
+                    android:padding="8dp"
+                    android:src="@drawable/s"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/csharp"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="HTML"
+                    android:textColor="@color/colorTransparentWhite"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="
+
+     Learn HTML Now"
+                    android:textColor="@color/colorTransparentWhite"
+                    android:textSize="18dp"
+                    android:onClick="html"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="6dp"
+                    android:layout_width="91dp"
+                    android:layout_height="88dp"
+                    android:padding="8dp"
+                    android:src="@drawable/h"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/other"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Js"
+                    android:textColor="@color/colorTransparentWhite"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="78dp"
+                    android:text="
+
+          Learn Js  Now"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:onClick="js"
+                    android:textColor="@color/colorTransparentWhite"/>
+
+                <ImageView
+                    android:layout_marginTop="6dp"
+                    android:layout_width="91dp"
+                    android:layout_height="88dp"
+                    android:padding="8dp"
+                    android:src="@drawable/js"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
